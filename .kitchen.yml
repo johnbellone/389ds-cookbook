@@ -15,3 +15,6 @@ suites:
   - name: default
     run_list:
       - 'recipe[389ds::default]'
+  - name: server
+    run_list:
+      - 'recipe[389ds::server]'

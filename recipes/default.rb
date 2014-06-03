@@ -13,5 +13,3 @@ if rhel?
 end
 
 package 'ldap-utils' if ubuntu?
-
-package '389-ds'

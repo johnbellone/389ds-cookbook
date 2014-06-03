@@ -3,7 +3,7 @@
 Installs and configures [389 directory service][1]
 
 ## Supported Platforms
-- CentOS 6.5
+- CentOS 5.10, 6.5
 - Ubuntu 12.04, 14.04
 
 ## Attributes

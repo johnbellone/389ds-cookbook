@@ -1,6 +1,6 @@
 #
 # Cookbook Name:: 389ds
-# Attribute:: default
+# Recipe:: default
 #
 # Copyright (C) 2013, 2014 Bloomberg Finance L.P.
 #

@@ -7,5 +7,11 @@
 
 include_recipe 'chef-sugar::default'
 
+if rhel?
+  include_recipe 'yum-epel::default'
+  package 'openldap-clients'
+end
+
+package 'ldap-utils' if ubuntu?
+
 package '389-ds'
-package 'ldap-utils'

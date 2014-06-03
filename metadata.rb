@@ -15,3 +15,4 @@ supports 'ubuntu', '= 12.04'
 supports 'ubuntu', '= 14.04'
 
 depends 'chef-sugar'
+depends 'yum-epel'
